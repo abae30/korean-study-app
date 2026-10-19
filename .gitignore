@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+*.local
+.venv
+.venv-tts
+
+# Textbook-derived material is never committed: page images, lesson data, audio, and the scripts that built them.
+source-material/
+src/data/lessons/
+public/audio/
+voice-samples/
+scripts/author/lesson-*.ts
+
+# local tooling
+.claude/

@@ -1,0 +1,551 @@
+{
+  "lesson": 1,
+  "title": "Sample: At the Café",
+  "titleKo": "카페에서",
+  "names": [],
+  "vocab": [
+    {
+      "id": "l1-v-카페",
+      "ko": "카페",
+      "en": "café, coffee shop",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-커피",
+      "ko": "커피",
+      "en": "coffee",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-물",
+      "ko": "물",
+      "en": "water",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-빵",
+      "ko": "빵",
+      "en": "bread",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-케이크",
+      "ko": "케이크",
+      "en": "cake",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-마시다",
+      "ko": "마시다",
+      "en": "to drink",
+      "pos": "verb",
+      "forms": [
+        "마셔요"
+      ],
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-먹다",
+      "ko": "먹다",
+      "en": "to eat",
+      "pos": "verb",
+      "forms": [
+        "먹어요"
+      ],
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-맛있다",
+      "ko": "맛있다",
+      "en": "to be delicious",
+      "pos": "adjective",
+      "forms": [
+        "맛있어요"
+      ],
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-주문하다",
+      "ko": "주문하다",
+      "en": "to order",
+      "pos": "verb",
+      "forms": [
+        "주문해요"
+      ],
+      "source": "textbook",
+      "set": 1
+    },
+    {
+      "id": "l1-v-주스",
+      "ko": "주스",
+      "en": "juice",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-차",
+      "ko": "차",
+      "en": "tea",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-메뉴",
+      "ko": "메뉴",
+      "en": "menu",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-직원",
+      "ko": "직원",
+      "en": "staff member",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-손님",
+      "ko": "손님",
+      "en": "customer",
+      "pos": "noun",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-여기",
+      "ko": "여기",
+      "en": "here",
+      "pos": "pronoun",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-주세요",
+      "ko": "주세요",
+      "en": "please give me",
+      "pos": "expression",
+      "note": "N 주세요 = \"N, please.\"",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-얼마예요?",
+      "ko": "얼마예요?",
+      "en": "How much is it?",
+      "pos": "expression",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-감사합니다",
+      "ko": "감사합니다",
+      "en": "thank you",
+      "pos": "expression",
+      "source": "textbook",
+      "set": 2
+    },
+    {
+      "id": "l1-v-우유",
+      "ko": "우유",
+      "en": "milk",
+      "pos": "noun",
+      "source": "textbook",
+      "fromTable": true
+    },
+    {
+      "id": "l1-v-사과",
+      "ko": "사과",
+      "en": "apple",
+      "pos": "noun",
+      "source": "textbook",
+      "fromTable": true
+    }
+  ],
+  "sentences": [
+    {
+      "id": "l1-s-001",
+      "ko": "저는 커피를 마셔요.",
+      "en": "I drink coffee.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-커피",
+        "l1-v-마시다"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-002",
+      "ko": "친구는 빵을 먹어요.",
+      "en": "My friend eats bread.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-먹다"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-003",
+      "ko": "케이크가 맛있어요.",
+      "en": "The cake is delicious.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-케이크",
+        "l1-v-맛있다"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-004",
+      "ko": "카페에서 커피를 주문해요.",
+      "en": "I order coffee at the café.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-카페",
+        "l1-v-커피",
+        "l1-v-주문하다"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-005",
+      "ko": "여기 메뉴 주세요.",
+      "en": "The menu, please.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-메뉴",
+        "l1-v-여기",
+        "l1-v-주세요"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-006",
+      "ko": "물 주세요.",
+      "en": "Water, please.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-물",
+        "l1-v-주세요"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-007",
+      "ko": "이 빵은 얼마예요?",
+      "en": "How much is this bread?",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-008",
+      "ko": "차를 마셔요.",
+      "en": "I drink tea.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-마시다"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-009",
+      "ko": "주스가 맛있어요.",
+      "en": "The juice is delicious.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-맛있다",
+        "l1-v-주스"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-010",
+      "ko": "손님이 카페에 있어요.",
+      "en": "A customer is in the café.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-카페",
+        "l1-v-손님"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-011",
+      "ko": "우유도 주세요.",
+      "en": "Milk too, please.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-주세요",
+        "l1-v-우유"
+      ],
+      "grammarIds": []
+    },
+    {
+      "id": "l1-s-012",
+      "ko": "감사합니다.",
+      "en": "Thank you.",
+      "source": "textbook",
+      "lesson": 1,
+      "vocabIds": [
+        "l1-v-감사합니다"
+      ],
+      "grammarIds": []
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "l1-p-1",
+      "title": "카페에서",
+      "titleEn": "At the café",
+      "kind": "dialogue",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "어서 오세요.",
+          "en": "Welcome."
+        },
+        {
+          "speaker": "손님",
+          "ko": "커피 주세요.",
+          "en": "Coffee, please."
+        },
+        {
+          "speaker": "직원",
+          "ko": "케이크도 있어요.",
+          "en": "We have cake too."
+        },
+        {
+          "speaker": "손님",
+          "ko": "네, 케이크도 주세요.",
+          "en": "Yes, cake too, please."
+        },
+        {
+          "speaker": "손님",
+          "ko": "얼마예요?",
+          "en": "How much is it?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "팔천 원이에요.",
+          "en": "It's 8,000 won."
+        },
+        {
+          "speaker": "손님",
+          "ko": "감사합니다.",
+          "en": "Thank you."
+        }
+      ],
+      "source": "textbook",
+      "lesson": 1
+    },
+    {
+      "id": "l1-p-2",
+      "title": "저는 카페에 가요",
+      "titleEn": "I go to the café",
+      "kind": "narration",
+      "lines": [
+        {
+          "ko": "저는 카페에 가요.",
+          "en": "I go to the café."
+        },
+        {
+          "ko": "커피를 마셔요.",
+          "en": "I drink coffee."
+        },
+        {
+          "ko": "빵도 먹어요.",
+          "en": "I eat bread too."
+        },
+        {
+          "ko": "케이크가 아주 맛있어요.",
+          "en": "The cake is really delicious."
+        }
+      ],
+      "source": "textbook",
+      "lesson": 1
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l1-g-1",
+      "lesson": 1,
+      "title": "The object particle 을/를",
+      "pattern": "N을/를 V",
+      "category": "particle",
+      "explanation": "Attach 을/를 to the thing an action is done to. Use 을 after a consonant (빵을) and 를 after a vowel (커피를).",
+      "examples": [
+        {
+          "ko": "커피를 마셔요.",
+          "en": "I drink coffee."
+        },
+        {
+          "ko": "빵을 먹어요.",
+          "en": "I eat bread."
+        }
+      ]
+    },
+    {
+      "id": "l1-g-please",
+      "lesson": 1,
+      "title": "Asking for something: N 주세요",
+      "pattern": "N 주세요",
+      "category": "ending",
+      "explanation": "Put 주세요 after the thing you want to ask for. It means \"N, please\" (literally \"please give me N\").",
+      "examples": [
+        {
+          "ko": "물 주세요.",
+          "en": "Water, please."
+        },
+        {
+          "ko": "메뉴 주세요.",
+          "en": "The menu, please."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l1-x-001",
+      "grammarId": "l1-g-1",
+      "lesson": 1,
+      "focus": "particle",
+      "source": "textbook",
+      "explanation": "커피 ends in a vowel, so the object particle is 를.",
+      "type": "blank",
+      "sentence": "저는 커피___ 마셔요.",
+      "en": "I drink coffee.",
+      "answers": [
+        "를"
+      ],
+      "choices": [
+        "을",
+        "를"
+      ]
+    },
+    {
+      "id": "l1-x-002",
+      "grammarId": "l1-g-1",
+      "lesson": 1,
+      "focus": "particle",
+      "source": "textbook",
+      "explanation": "빵 ends in a consonant, so the object particle is 을.",
+      "type": "blank",
+      "sentence": "친구는 빵___ 먹어요.",
+      "en": "My friend eats bread.",
+      "answers": [
+        "을"
+      ],
+      "choices": [
+        "을",
+        "를"
+      ]
+    },
+    {
+      "id": "l1-x-003",
+      "grammarId": "l1-g-1",
+      "lesson": 1,
+      "focus": "particle",
+      "source": "textbook",
+      "explanation": "차 ends in a vowel, so the object particle is 를.",
+      "type": "blank",
+      "sentence": "차___ 마셔요.",
+      "en": "I drink tea.",
+      "answers": [
+        "를"
+      ],
+      "choices": [
+        "을",
+        "를"
+      ]
+    },
+    {
+      "id": "l1-x-004",
+      "grammarId": "l1-g-please",
+      "lesson": 1,
+      "focus": "ending",
+      "source": "textbook",
+      "explanation": "To ask for something, put 주세요 after it.",
+      "type": "blank",
+      "sentence": "물 ___.",
+      "en": "Water, please.",
+      "answers": [
+        "주세요"
+      ],
+      "choices": [
+        "주세요",
+        "마셔요",
+        "먹어요"
+      ]
+    },
+    {
+      "id": "l1-x-005",
+      "grammarId": "l1-g-1",
+      "lesson": 1,
+      "focus": "conjugation",
+      "source": "textbook",
+      "explanation": "마시 + 어요 contracts to 마셔요.",
+      "type": "conjugate",
+      "base": "마시다",
+      "baseEn": "to drink",
+      "target": "polite form (-어요)",
+      "answers": [
+        "마셔요"
+      ],
+      "choices": [
+        "마셔요",
+        "마시어요",
+        "마시아요",
+        "마세요"
+      ]
+    },
+    {
+      "id": "l1-x-006",
+      "grammarId": "l1-g-1",
+      "lesson": 1,
+      "focus": "conjugation",
+      "source": "textbook",
+      "explanation": "먹 + 어요 = 먹어요.",
+      "type": "conjugate",
+      "base": "먹다",
+      "baseEn": "to eat",
+      "target": "polite form (-어요)",
+      "answers": [
+        "먹어요"
+      ],
+      "choices": [
+        "먹어요",
+        "먹아요",
+        "먹요"
+      ]
+    }
+  ],
+  "sample": true
+}

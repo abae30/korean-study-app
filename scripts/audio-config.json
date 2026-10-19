@@ -1,0 +1,57 @@
+{
+  "_comment": "Engines: 'edge' (edge-tts neural voices), 'melo' (MeloTTS local neural Korean voice, one female voice, runs offline in .venv-tts) or 'say' (macOS built-in voices, offline fallback). 'auto' tries edge, then melo, then say. Every word/sentence is generated in EVERY voice listed for the engine; the app then picks one at random per play (Settings → Voice). Dialogue lines use the voice matching the speaker's gender. Changing voices/rate and re-running `npm run build-audio` regenerates only what changed.",
+  "engine": "auto",
+  "edge": {
+    "voices": [
+      {
+        "name": "ko-KR-SunHiNeural",
+        "gender": "female"
+      },
+      {
+        "name": "ko-KR-InJoonNeural",
+        "gender": "male"
+      }
+    ],
+    "rate": "-8%",
+    "pitch": "+0Hz"
+  },
+  "say": {
+    "voices": [
+      {
+        "name": "Yuna",
+        "gender": "female"
+      },
+      {
+        "name": "Reed",
+        "gender": "male"
+      }
+    ],
+    "wordsPerMinute": 165
+  },
+  "speakerGender": {
+    "스티브": "male",
+    "마이클": "male",
+    "폴": "male",
+    "제임스": "male",
+    "에드워드": "male",
+    "유미": "female",
+    "소피아": "female",
+    "린다": "female",
+    "리사": "female",
+    "제니": "female",
+    "미치코": "female",
+    "수잔": "female",
+    "수지": "female",
+    "제시카": "female"
+  },
+  "defaultGender": "female",
+  "melo": {
+    "voices": [
+      {
+        "name": "KR",
+        "gender": "female"
+      }
+    ],
+    "speed": 0.9
+  }
+}
